@@ -1,0 +1,14 @@
+name: Farts
+description: Brew Potions of Farting and use them to make mobs freeze from your fartiness. Mob-paralysis FTW!
+author: feydk
+version: 0.1
+main: io.github.feydk.Farts.FartsPlugin
+commands:
+  farts:
+    description: Gives player a Potion of Farting.
+    usage: /<command> give [player] [amount] [splash (true|false)]
+    permission: farts.give
+permissions:
+  farts.give:
+    description: Use the /farts command to give a player Potions of Farting.
+    default: op
